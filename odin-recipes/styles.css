@@ -1,0 +1,102 @@
+body {
+  background-color: salmon;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h3 {
+  font-family: Tahoma, sans-serif;
+  font-size: 20px;
+}
+.main-pict {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: small;
+  width: 60%;
+}
+
+.recipe-pict {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  text-align: center;
+  font-size: small;
+}
+
+hr {
+  height: 2px;
+  background-color: lemonchiffon;
+  margin-bottom: 10px;
+}
+/* https://redstapler.co/4-ways-to-center-div-css/
+
+  The third method is to use a combination of text-align and inline-block display. Simply add text-align 
+  center to parent div and set the child div display to inline-block.
+    .example-div {
+        display: inline-block;
+    }
+.   parent-div {
+        text-align: center;
+    }
+
+  This will force our div to behave like inline element and therefore subjected text-align center.
+   The difference between this method and margin: 0 auto is we don’t need the width to be specified. 
+   Then again, you can use it for vertical align. */
+
+.top-div {
+  text-align: center;
+}
+.child-div {
+  display: inline-block;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.child-div.first-element {
+  margin-left: 0;
+}
+
+.preamble p {
+  text-align: left;
+}
+
+.ingredients,
+.method {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: 10%;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+  border: solid;
+  border-width: 2px;
+}
+
+.ingredients {
+  border-bottom-width: 0;
+}
+.method {
+  border-top-width: 0.3px;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+  text-align: center;
+}
